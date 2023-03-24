@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
     private void configureButtons() {
         Button btnCellInfo = findViewById(R.id.btnCellInfo);
         btnCellInfo.setOnClickListener(view -> {
-            Intent cellInfoIntent = new Intent(MainActivity.this, CellInfoActivity.class);
+            Intent cellInfoIntent = new Intent(MainActivity.this, TextInputLayoutExample.class);
             cellInfoIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(cellInfoIntent);
         });
