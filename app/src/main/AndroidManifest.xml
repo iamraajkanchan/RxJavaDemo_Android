@@ -19,7 +19,7 @@
         android:theme="@style/Theme.RxJavaDemo"
         tools:targetApi="31">
         <activity
-            android:name=".TextInputLayoutExample"
+            android:name=".ui.TextInputLayoutExample"
             android:exported="false" />
         <activity
             android:name=".ui.CellInfoActivity"
